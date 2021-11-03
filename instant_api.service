@@ -1,0 +1,9 @@
+[Unit]
+Description = Instant API
+
+[Service]
+ExecStart=/usr/local/bin/instant_api
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
